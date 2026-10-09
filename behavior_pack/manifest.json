@@ -1,0 +1,28 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "xSorter",
+    "description": "[Sneak + Punch] to sort chest items.",
+    "uuid": "564bd6f4-ae55-4006-ba02-ea6b4d2698e9",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 26, 52]
+  },
+  "metadata": {
+    "product_type": "addon",
+    "authors": ["Migliorelli"],
+    "license": "GPL-3.0",
+    "url": "https://github.com/migliorelli/xsorter-bedrock"
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "af89a0f0-ec76-4ba0-b9de-019fe3e2c60b",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    { "module_name": "@minecraft/server", "version": "2.0.0" }
+  ]
+}
