@@ -1,5 +1,7 @@
 # xSorter
 
+![image](./behavior_pack/pack_icon.png)
+
 A simple Minecraft Bedrock addon that sorts chest items by category and name, merging stacks whenever possible.
 
 ## Usage
